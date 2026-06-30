@@ -1,7 +1,10 @@
-# Clase 02: Variables y Tipos de Datos
+# Ejercicio 1.1: Registro de Usuario
+# Guía: Python Fundamentos Nivel I
 
-nombre = "Tu Nombre"
-edad = 47
+# 1. Captura de datos desde la consola (Input siempre retorna str)
+nombre = input("Por favor, ingresa tu nombre: ")
+edad = int(input("Ingresa tu edad: "))
+ciudad = input("En que ciudad resides?: ")
 
-print("Nombre:", nombre)
-print("Edad:", edad)
+# 2. Impresión formateada en una sola línea usando f-strings
+print(f"Registro exitoso: {nombre} tiene {edad} anos y vive en {ciudad}")

@@ -1,6 +1,6 @@
 # Ejemplo Practico: Calculadora de Descuento
 precio_original = 100.0
-descuento = .020
+descuento = 0.20
 tiene_cupon = True
 
 precio_final = precio_original * (1 - descuento)
